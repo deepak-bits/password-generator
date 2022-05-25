@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+/* 
+button: #10B981; 
+p: #D5D4D8;
+div-text: #55F991;
+*/
+body{
+    background:rgb(222, 217, 226);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+    background: #1F2937;
+    border-radius: 15px;
+    /* padding: 40px; */
+}
+
+.pass-header{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 118px 0 0 52px;
+}
+
+.pass-header > h1{
+    margin-top: 0;
+    letter-spacing: -0.025em;
+    font-size: 40px;
+    width: 354px;
+    line-height: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.generate-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #10B981;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 42px;
+    margin-top: 51px;
+    /* margin-bottom: 25px; */
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    font-size: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+hr{
+    margin-top: 30px;
+    border: 1px solid #2F3E53;
+    width: 446px;
+    margin-left: 52px;
+}
+
+.pass-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    align-items: start;
+    /* top: 399px; */
+    /* background-color: cadetblue; */
+    /* grid-column-gap: 24px; */
+    margin: 30px 52px 0;
+    /* line-height: 32px; */
+}
+
+.grid{
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    background-color: #273549;
+    color: #55F991;
+    /* margin: 0 52px; */
+}
+
+h1 > span{
+    color: #41bb70;
+}
+
+p{
+    font-size: 20px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    width: 372px;
+    color: #D5D4D8;
+    margin-top: 10px;
+    line-height: 28px;
+    /* letter-spacing: 0.25px; */
+}
+
+
+
+
